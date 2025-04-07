@@ -6,13 +6,15 @@
     --cor3: #7A7A7A;
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { /* Tablet */
 
     body {
         background-image: linear-gradient(to top, var(--cor3), var(--cor2), var(--cor1) );
     }
+
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem {
@@ -35,6 +37,7 @@
 
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem {
